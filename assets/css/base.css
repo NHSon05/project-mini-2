@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --color-one: #8261EE;
+    --color-two: #ff589E;
+    --color-text: black;
+    --font: "Inter", sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    color: var(--color-text);
+    font-family: var(--font);
+    line-height: 1.6;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: var(--color-text);
+}
+i{
+    text-decoration: none;
+    list-style-type: none;
+}
+ul li{
+    text-decoration: none;
+    list-style-type: none;
+}
+a:hover{
+    text-decoration: none;
+    color: var(--color-one);
+}
+.section-two .col-lg-6{
+    padding: 20px;
+}
+
+.section-three .col-md-6{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.section-six .col-lg-6{
+    margin-top: 20px;
+}
+.section-seven .col-lg-6{
+    margin-top: 20px;
+}
+.form .col-sm-12{
+    margin-bottom: 20px;
+}
+.form .col-sm-12 #name{
+    margin-bottom: 20px;
+}
